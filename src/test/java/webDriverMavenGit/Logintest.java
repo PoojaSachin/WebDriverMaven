@@ -20,6 +20,7 @@ public class Logintest {
 	@Test
 	public static void login(){
 		driver.get("http://gmail.com");	
+		System.out.println("modifying");
 	}
 
 	@AfterSuite
